@@ -1,0 +1,14 @@
+
+
+
+<div class="card-columns">
+
+    <div class="card" style="width: 18rem;" *ngFor="let archivo of items | async">
+        <img [src]="archivo.url" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{archivo.nombre}}</h5>
+        
+        </div>
+      </div>
+
+</div>
